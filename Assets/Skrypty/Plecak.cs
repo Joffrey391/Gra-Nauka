@@ -58,8 +58,8 @@ public class Plecak : MonoBehaviour {
 	}
 	
 	private void OnGUI () {
-		Cursor.visible = true;
-		Cursor.lockState = CursorLockMode.None;
+		/*Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;*/
 		/*for (int i = 0; i < itemki.Count; i++) {
 			if (GUI.Button (new Rect (100 + i * 60, 100, 50, 50), itemki[i].ikona)) {
 				Debug.Log ("Wybrałeś item: " + itemki[i].nazwa);
