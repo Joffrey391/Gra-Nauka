@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class Plecak : MonoBehaviour {
 
+	//Stała określająca
 	public const int maksymalnaPojemnosc = 5;
 	public List<Item> itemki;
 	public Button[] przyciski = new Button[maksymalnaPojemnosc];
